@@ -13,6 +13,10 @@ void CalculateStudentAverage(void *object, double *avg);
 
 int main(int argc, char **argv)
 {
+    cout << "Please enter the student's id number: ";
+    cin >> id;
+    cout << "id is " id;
+    
     return 0;
 }
 
